@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct attempt_1App: App {
+struct attempt1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomePage()
+            }
         }
     }
 }
